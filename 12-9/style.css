@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,6 +8,7 @@ body {
     color: #333;
 }
 
+/* Estilos para el encabezado */
 header {
     background-color: #c92f43;
     color: #fff;
@@ -18,12 +20,24 @@ header h1 {
     margin: 0;
 }
 
-table{
-    width: 70%;
-    border-collapse: collapse;
-    justify-content: center;
+/* Centrar la tabla de horarios */
+#horario {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
 }
 
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar el contenido dentro del contenedor */
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+/* Estilos para la tabla */
 thead {
     background-color: #429ca8;
     color: black;
@@ -39,6 +53,7 @@ tbody tr:hover {
     background-color: #f1f1f1af;
 }
 
+/* Estilos para las secciones */
 section {
     padding: 10px;
     margin: 40px;
@@ -47,8 +62,8 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilos para el pie de página */
 footer {
-    
     background-color: #333;
     color: #fff;
     text-align: center;
